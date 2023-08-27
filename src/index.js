@@ -15,10 +15,7 @@ const perPage = 40;
 searchForm.addEventListener('submit', onSearchForm);
 loadMoreBtn.addEventListener('click', onLoadMoreBtn);
 
-const simpleLightBox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt',
-  captionDelay: 250,
-});
+const simpleLightBox = new SimpleLightbox('.gallery a');
 
 
 function onSearchForm(e) {
